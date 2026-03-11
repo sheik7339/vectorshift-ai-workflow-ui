@@ -1,30 +1,40 @@
 # VectorShift AI Workflow UI
 
-Frontend node-based workflow interface built using React.
+Node-based workflow interface built with React.
 
-This project was built as part of the VectorShift (YC S23) frontend technical assessment.
+This project was built as part of a frontend technical assessment for VectorShift (YC S23).
 
-## Features
-- Drag and connect nodes
-- Node types: Input, Text, API, Output
-- Visual workflow building
-- React-based UI
+Users can visually connect nodes like:
+- Input
+- Text
+- API
+- Output
+
+to create AI workflows.
 
 ## Tech Stack
 - React.js
 - JavaScript
 - CSS
-- Node workflow logic
+- Node-based UI workflow
+
+## Project Structure
+
+frontend/
+React UI for node workflow builder
+
+backend/
+Python backend server
 
 ## How to run
 
-### Frontend
-cd frontend  
-npm install  
-npm start  
+Frontend
+cd frontend
+npm install
+npm start
 
-### Backend
-cd backend  
+Backend
+cd backend
 python main.py
 
-Open http://localhost:3000 to view the application.
+Open http://localhost:3000
